@@ -23,6 +23,8 @@ const handleClick = (params) => {
     <pieChart :chartData="chartData1"> </pieChart>
     <br />
     <br />
+    <br />
+    <br />
     <pieChart
       :chartData="chartData"
       :fieldNames="{ label: 'myLabel', value: 'myValue', color: 'myColor' }"
@@ -38,6 +40,7 @@ const handleClick = (params) => {
 
 <style scoped>
 .testChart {
+  margin: 0 auto;
   width: 200px;
   height: 200px;
 }
